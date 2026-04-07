@@ -4,7 +4,6 @@
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-"""
 def isPali(s):
     for i in range(len(s)//2): #נרוץ על חצי מחרוזת כיוון שאם החצי הראשון שווה לחצי האחרון, אז גם בדיקה מהצד השני תהיה נכונה
         if s[i] != s[-i-1]:
@@ -41,7 +40,6 @@ def prime_factors(n):
 
 n = int(input("enter a number: "))
 print(prime_factors(n))
-"""
 
 #שאלה 5:
 
