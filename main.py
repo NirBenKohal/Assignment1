@@ -29,7 +29,7 @@ def isPali(s):
             return False
     return True
 
-s = 'A man a plan a canal panama'
+s = 'A Man a plan a canal panama'
 print(isPali(s))
 
 
@@ -65,7 +65,7 @@ def replace_second_most(s):
    for i in range(len(SecondMost) - 1, -1, -1): #מעבר מהסוף להתחלה כדי למצוא את התו הכי גדול לקסיקוגרפית
       if SecondMost[i] == x:
          SecondChar = WordChars[i]
-         print(SecondChar)
+         #print(SecondChar)
          break
 
    result = ''
@@ -107,7 +107,7 @@ def prime_factors(n):
          is_prime = True
    return list1
 
-n = 60
+n = 30
 print(prime_factors(n))
 
 
@@ -130,7 +130,7 @@ def smallest_Balanced_Index(lst):
 
    return -1
 
-lst = [3, 2, 1, 7, 3]
+lst = [3, 2, 1, 1, 2, 3]
 print(smallest_Balanced_Index(lst))
 
 
